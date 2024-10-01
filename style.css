@@ -1,0 +1,43 @@
+/* Custom Styles for Streamlit App */
+
+body {
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.custom-title h2 {
+    color: #0073e6;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Century Gothic','Courier New', Courier, monospace;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer p {
+    font-size: 1.2em;
+    color: #888;
+}
+
+/* Style the input box */
+input {
+    border: 2px solid #0073e6;
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+/* Multiselect dropdown */
+.css-1fv8s86 {
+    background-color: #f2f2f2 !important;
+    border-radius: 5px;
+}
+
+/* Adjust Streamlit's success and warning messages */
+.stAlert {
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 1.1em;
+}
