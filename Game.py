@@ -17,9 +17,7 @@ def show():
     game_choice = st.selectbox("Select a game to play", ["Snake", "Tetris", "Tic-Tac-Toe"])
 
     if game_choice == "Snake":
-        difficulty = st.radio("Choose difficulty:", ("Normal", "Hard"))
-        if st.button("Start Snake Game"):
-            Snake.run(difficulty.lower())
+        Snake.main()
     elif game_choice == "Tetris":
         Tetris.run()
     elif game_choice == "Tic-Tac-Toe":
