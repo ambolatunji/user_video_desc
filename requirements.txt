@@ -1,7 +1,11 @@
 streamlit
 requests 
-google-auth 
+google-auth
+pygame 
 oauthlib
 llama-stack
 pytube
-
+bs4
+lxml
+#git+https://github.com/EchterAlsFake/eaf_base_api
+#xvideos-api

@@ -4,6 +4,7 @@ import SocialMedia
 import youtube
 import vimeo
 import dailymotion
+import Game
 from datetime import datetime, timedelta
 
 # Configure the page
@@ -21,6 +22,7 @@ load_css('style.css')
 pages = {
     "Home": HomePage,
     "Social Media": SocialMedia,
+    "Games": Game,
     
 }
 

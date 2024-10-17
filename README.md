@@ -4,10 +4,15 @@
 ## Project Structure
  /streamlit_app/
 │
-├── app.py                  # Main Streamlit app launcher
-├── HomePage.py             # The home page for the app with description
-├── SocialMedia.py          # UI to handle social media selection
-├── style.css               # CSS styling for the app
+├── app.py                    # Main Streamlit app launcher
+├── HomePage.py               # The home page for the app with description
+├── SocialMedia.py            # Social media-related functionalities
+├── Game.py                   # Game section to choose and play different games
+├── Snake.py                  # Snake game implementation
+├── Tetris.py                 # Tetris game implementation
+├── TicTacToe.py              # Tic-Tac-Toe game implementation
+├── style.css                 # CSS styling for the app
 └── assets/
-     └── images/            # Any image assets you'd like to use
+     └── images/              # Any image assets you'd like to use
+
 
